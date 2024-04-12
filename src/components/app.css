@@ -32,14 +32,18 @@ header .icon p{
     justify-content: space-between;
     padding: 0 40px;
     align-items: center ;
+    background-color: #222;
 }
 .menu{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
+    color: white;
 }
 .menu ul{
-   color: #333;
+    color: white;
     display: flex;
     list-style-type: none;
     align-items: center;
@@ -50,8 +54,8 @@ header .icon p{
 .shop{
     width: 100%;
     height: 300px;
-    background-color: #222;
-    color: white;
+    background-color: rgb(237, 234, 234);
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,4 +105,21 @@ header .icon p{
     background-color: #222;
     color: white;
     font-size: 20px;
+}
+
+
+.cont-left{
+    width: 850px;
+    border: 1px solid #ddd;
+}
+.cont-left .text{
+    text-align: start;
+    padding: 20px;
+}
+.cont-right{
+    width: 300px;
+    flex: 1;
+}
+.cardd{
+    height: 200px;
 }
